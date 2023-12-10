@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div class="container-fulid bg-dark header">
+        <h2 class="text-light text-center">Welcome to the Website!</h2>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6" id="login-content-box">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Login to see the Profile</h4>
+                    <button type="button" class="btn btn-dark btn-lg" id="loginbtn" onclick="toLogin()">Login</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6" id="register-content-box">
+            <div class="card ">
+                <div class="card-body">
+                    <h4>Register as a New User</h4>
+                    <button type="button" class="btn btn-dark btn-lg" id="registerbtn"
+                        onclick="toRegister()">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#registerbtn').click(function () {
+                window.location.href = 'register.html';
+            })
+            $('#loginbtn').click(function () {
+                window.location.href = 'login.html';
+            })
+
+        })
+    </script>
+</body>
+
+</html>

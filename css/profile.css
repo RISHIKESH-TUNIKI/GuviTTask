@@ -1,0 +1,59 @@
+.header{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.img-box{
+    display: inline-block;
+    padding: 0px;
+}
+.img-bg{
+    margin: 2px auto;
+}
+
+#user-img{
+    width: 100%;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.probtn{
+    display: block;
+    margin: 20px auto;
+}
+
+.details{
+    padding: 20px;
+    margin: 20px auto;
+}
+
+
+
+
+.card{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+
+}
+
+form{
+    padding-top: 20px;
+}
+
+.fs{
+    font-size: 1rem;
+}
+@media screen and (max-width:480px) {
+    .fs{
+        font-size: 0.7rem;
+    }
+}
+.row{
+    margin: 20px auto;
+}
+
+.updatebtn{
+    display: block;
+    margin: 50px auto;
+}

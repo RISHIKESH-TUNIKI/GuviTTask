@@ -1,0 +1,22 @@
+.header{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+
+#login-content-box{
+    margin: 30px auto;
+    padding: 2.2rem;
+}
+#register-content-box{
+    margin: 30px auto;
+    padding: 2.2rem;
+}
+
+
+#registerbtn{
+    margin: 20px;
+}
+#loginbtn{
+    margin: 20px;
+}

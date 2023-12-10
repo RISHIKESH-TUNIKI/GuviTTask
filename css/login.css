@@ -1,0 +1,38 @@
+.header{
+    padding: 30px;
+}
+
+.card{
+    width: 40%;
+    height: 50vh;
+    margin: 10px auto;
+}
+
+.card-body{
+    margin: auto auto
+    ;
+}
+
+.fs{
+    font-size: 1rem;
+}
+@media screen and (max-width:480px) {
+    .fs{
+        font-size: 0.7rem;
+    }
+}
+
+
+form{
+    padding-top: 20px;
+}
+
+.row{
+    margin: 20px auto;
+}
+
+.btn{
+    display: block;
+    width: 30%;
+    margin: 50px auto;
+}
